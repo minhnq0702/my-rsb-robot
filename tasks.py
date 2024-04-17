@@ -14,8 +14,6 @@ SALE_FILE_NAME = "salesdata.xlsx"
 @task
 def robot_spare_bin_python():
     """Insert the sales data for the week and then export it as PDF"""
-    message = "Hello"
-    message = message + " World!"
     browser.configure(
         slowmo=100,
     )
